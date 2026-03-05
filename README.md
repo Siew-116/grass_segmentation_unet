@@ -15,14 +15,14 @@ Use machine learning model to detect length of grass on roadside (short, medium,
 - input size: (128,128,3)
 - augmentation: random horizontal flip, vertical clip, brightness, contrast, saturation, hue value
 
-![train history 1](training_history_phase1.png)
-![train history 2](training_history_phase2.png)
+![train history 1](training_history_phase2.png)
+![train history 2](training_history_phase1.png)
 
 ### Evaluation
 Metrics: Accuracy, IoU (Intersection Over Union), Weighted Sparse Categorical Cross Entropy
-Test Loss           : 0.1019
-Test Accuracy   : 0.9373
-Test Mean IoU : 0.4523
+- Test Loss           : 0.1019
+- Test Accuracy   : 0.9373
+- Test Mean IoU : 0.4523
 
  Per Class IoU:
  - background          : 0.9547
@@ -33,4 +33,5 @@ Test Mean IoU : 0.4523
 ![confusion matrix](confusion_matrix.png)
 
 ![test pred](test_predictions.png)
+
 
