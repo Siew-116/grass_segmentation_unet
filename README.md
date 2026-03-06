@@ -35,3 +35,14 @@ Metrics: Accuracy, IoU (Intersection Over Union), Weighted Sparse Categorical Cr
 ![test pred](test_predictions.png)
 
 
+2. Attention U-Net
+   - add attention gate as skip connections
+•	Test Loss: 0.1008
+•	Test Accuracy: 0.9296
+•	Test Mean IoU: 0.4445
+
+Per Class IoU
+•	background: 0.9474
+•	grass_short: 0.4938
+•	grass_medium: 0.1869
+•	grass_long: 0.1497
